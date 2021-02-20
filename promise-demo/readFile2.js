@@ -23,3 +23,9 @@ readFileContent('a.json').then((aData) => {
   console.log(cData)
 })
 
+/**
+ * promise 缺点
+ * 无法取消 Promise，错误需要通过回调函数捕获
+ */
+
+

@@ -29,3 +29,8 @@ printFileContent()
 // 3. async 函数执行返回的也是一个 promise 对象
 // 4. try-catch 截获 promise 中 reject 的值
 
+/**
+ * await 缺点
+ * await 将异步代码改造成了同步代码，如果多个异步代码没有依赖性却使用了 await 会导致性能上的降低
+ */
+
